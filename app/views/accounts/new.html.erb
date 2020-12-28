@@ -1,0 +1,13 @@
+<h1>Criar Conta </h1>
+
+<%= form_for(@account) do |f| %>
+
+<p>
+    <%= f.label :Numero_da_Conta %></br>
+    <%= f.number_field :number_accounts %>
+</p>
+<p>
+    <%= f.submit %>
+</p>
+
+<% end %>
